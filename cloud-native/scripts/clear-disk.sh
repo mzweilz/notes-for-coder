@@ -1,0 +1,9 @@
+du -sh -- /usr/local/* | sort -rh | head -10
+du -sh -- /usr/local/share/* | sort -rh | head -10
+du -sh -- /var/log/* | sort -rh | head -10
+du -sh -- /run/* | sort -rh | head -5
+du -sh -- /run/log/* | sort -rh | head -10
+du -sh -- /opt/* | sort -rh | head -5
+du -sh -- /tmp/* | sort -rh | head -5
+du -sh -- /root/* | sort -rh | head -5
+du -sh -- /usr/* | sort -rh | head -5
